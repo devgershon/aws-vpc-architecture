@@ -225,11 +225,11 @@ This is the most expensive project in the series. It is worth running for a week
 
 | Resource | Approximate cost |
 |---|---|
-| NAT Gateway | ~$0.045/hour (~$32/month) plus data transfer charges |
-| RDS db.t3.micro | ~$0.02/hour (~$15/month) |
-| EC2 t3.micro | ~$0.01/hour (~$8/month) |
-| ALB | ~$0.008/hour (~$6/month) |
-| VPC Endpoints x3 | ~$0.01/hour each (~$22/month combined) |
+| NAT Gateway | ($32/month) plus data transfer charges |
+| RDS db.t3.micro | ($15/month) |
+| EC2 t3.micro | ($8/month) |
+| ALB | ($6/month) |
+| VPC Endpoints x3 | ($22/month) |
 
 Running for a week costs around $20. Running for a full month costs around $75-80. Run `terraform destroy` when you are done.
 
